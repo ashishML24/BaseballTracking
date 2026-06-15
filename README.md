@@ -7,6 +7,16 @@ The implementation is designed to be modular, physically grounded, and interpret
 
 ![Baseball tracking animation](outputs/detections_RefinementWithConstantBallRadius/ball_tracking.gif)
 
+## Key Features
+
+- Adaptive template-based ball tracking
+- Separation frame detection and template initialization
+- Optional ball refinement using radial edge detection and segmentation
+- 3D reconstruction using known ball radius and camera geometry
+- Kalman filtering of position estimates
+- Ballistic model fitting with confidence intervals
+- Comprehensive visualization of speed, trajectory, and uncertainty
+
 ## System Diagram
 
 The pipeline follows this flow:
@@ -105,16 +115,6 @@ The pipeline saves outputs under `outputs/detections_xxx`:
 - Matplotlib for visualization
 - natsort for sorted frame loading
 - Docker for containerized execution
-
-## Key Features
-
-- Adaptive template-based ball tracking
-- Separation frame detection and template initialization
-- Optional ball refinement using radial edge detection and segmentation
-- 3D reconstruction using known ball radius and camera geometry
-- Kalman filtering of position estimates
-- Ballistic model fitting with confidence intervals
-- Comprehensive visualization of speed, trajectory, and uncertainty
 
 ## Future Improvements
 
