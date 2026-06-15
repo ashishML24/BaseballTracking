@@ -11,7 +11,7 @@ The implementation is designed to be modular, physically grounded, and interpret
 
 - Adaptive template-based ball tracking with dynamic search window sizing
   - Search radius automatically expands during high inter-frame motion (fast ball) and contracts during low motion (slow ball)
-  - Bounds-checked between min/max radii for numerical stability (see [p10_2_searchupdate.py](pipeline/p10_2_searchupdate.py))
+  - Bounds-checked between min/max radii for numerical stability.
 - Separation frame detection and template initialization
 - Optional ball refinement using radial edge detection and segmentation
 - 3D reconstruction using known ball radius and camera geometry
