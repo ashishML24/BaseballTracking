@@ -85,9 +85,8 @@ In `run_pipeline.py`, edit the user input section to choose one of the modes:
 - `Ball_refinement = True`, `using_fixed_depth = False`
   - template matching plus ball refinement, per-frame depth estimate
 
-### 5. Docker usage
+### 5. Docker usage (recommended)
 
-`Commands.txt` contains Docker commands for building and running the container:
 
 ```bash
 docker build -t baseball-speed .
