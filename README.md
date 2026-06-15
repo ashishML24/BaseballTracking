@@ -93,7 +93,7 @@ python run_pipeline.py
 
 ## Output and Sample Results
 
-The pipeline saves outputs under `outputs/detections/`:
+The pipeline saves outputs under `outputs/detections_xxx`:
 
 
 ## Technology Deck
